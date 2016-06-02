@@ -1,0 +1,58 @@
+title {
+        display: yes;
+}
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #333;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333;
+    float: top;
+    z-index: 1;
+}
+li {
+    float: right;
+}
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: darkslateblue;
+    color:white;
+}
+
+
+
+
+li a.active {
+    background-color: darkblue;
+    color: white;
+}
+
+#navbar {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    position: static;
+    z-index: 1;
+}
+
+jumbotron {
+    position: static;
+    float: top;
+    border: 0;
+    padding-top: 0;
+    margin-top: 0;
+    background-color: #333;
+}
