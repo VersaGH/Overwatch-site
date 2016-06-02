@@ -31,14 +31,16 @@ li a {
 li a:hover {
     background-color: darkslateblue;
     color:white;
+    text-decoration: none;
 }
 
 
 
 
 li a.active {
-    background-color: darkblue;
+    background-color: midnightblue;
     color: white;
+    width: 100%;
 }
 
 #navbar {
@@ -55,4 +57,15 @@ jumbotron {
     padding-top: 0;
     margin-top: 0;
     background-color: #333;
+}
+
+#navHome {
+    color:white;
+    float:left;
+    width: 250px;
+    text-align: center;
+}
+
+#homebanner {
+        margin: auto;
 }
