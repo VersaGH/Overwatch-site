@@ -10,11 +10,10 @@ html, body {
 
 ul {
     list-style-type: none;
-    margin: 0px;
+    margin: 100px;
     padding: 0px;
     overflow: hidden;
     background-color: #333;
-    float: top;
     z-index: 1;
 }
 li {
@@ -35,8 +34,6 @@ li a:hover {
 }
 
 
-
-
 li a.active {
     background-color: midnightblue;
     color: white;
@@ -50,15 +47,6 @@ li a.active {
     z-index: 1;
 }
 
-jumbotron {
-    position: static;
-    float: top;
-    border: 0;
-    padding-top: 0;
-    margin-top: 0;
-    background-color: #333;
-}
-
 #navHome {
     color:white;
     float:left;
@@ -67,5 +55,11 @@ jumbotron {
 }
 
 #homebanner {
-        margin: auto;
+    position: static;
+    height:auto;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 820px) {
+    background-color:orange;
 }
