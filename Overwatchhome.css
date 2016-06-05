@@ -5,7 +5,6 @@ html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
-    background-color: #333;
  }
 
 ul {
@@ -14,7 +13,6 @@ ul {
     padding: 0px;
     overflow: hidden;
     background-color: #333;
-    z-index: 1;
 }
 li {
     float: right;
@@ -28,14 +26,14 @@ li a {
 }
 
 li a:hover {
-    background-color: darkslateblue;
+    background-color: #5f5f60;
     color:white;
     text-decoration: none;
 }
 
 
 li a.active {
-    background-color: midnightblue;
+    background-color: #5f5f60;
     color: white;
     width: 100%;
 }
@@ -44,7 +42,6 @@ li a.active {
     margin-bottom: 0;
     padding-bottom: 0;
     position: static;
-    z-index: 1;
 }
 
 #navHome {
@@ -62,4 +59,21 @@ li a.active {
 
 @media screen and (max-width: 820px) {
     background-color:orange;
+}
+
+#homeborder {
+    border: 2px black;
+    border-style: solid;
+    text-align: justify;
+    height:90%;
+    margin-top: -7px;
+    margin-left: 100px;
+    margin-right: 100px;
+    
+        
+}
+
+footer {
+    text-align: center;
+    word-wrap: normal;
 }
