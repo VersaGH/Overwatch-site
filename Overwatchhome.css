@@ -57,15 +57,13 @@ li a.active {
     max-width: 100%;
 }
 
-@media screen and (max-width: 820px) {
-    background-color:orange;
-}
 
 #homeborder {
     border: 2px black;
     border-style: solid;
     text-align: justify;
-    height:90%;
+    max-height: 90%;
+    width:auto
     margin-top: -7px;
     margin-left: 100px;
     margin-right: 100px;
@@ -76,4 +74,27 @@ li a.active {
 footer {
     text-align: center;
     word-wrap: normal;
+}
+
+.homesections {
+    height: 400px;
+    width: 750px;
+    display: inline-flex;
+    position: relative;
+    margin-left: 70px;
+}
+
+.homesections2 {
+    height: 400px;
+    width: 750px;
+    display: inline-flex;
+    position: relative;
+    margin-right: 70px;
+}
+
+.homeimages {
+    height: 100%;
+    width: auto;
+    
+    
 }
