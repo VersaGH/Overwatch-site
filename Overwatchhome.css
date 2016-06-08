@@ -23,7 +23,7 @@ ul {
 li {
     float: right;
 }
-li a {
+.nav-item {
     display: inline-block;
     color: white;
     text-align: center;
@@ -31,9 +31,17 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.nav-item:hover {
     background-color: #e69b42;
     color:white;
+    text-decoration: none;
+}
+
+li a {
+    color:white;
+    text-decoration: none;
+}
+li a:hover {
     text-decoration: none;
 }
 
@@ -48,8 +56,10 @@ li a.active {
 #navHome {
     color:white;
     float:left;
-    width: 250px;
+    width: 300px;
+    height: 52px;
     text-align: center;
+    padding: 0px;
 }
 
 
@@ -68,13 +78,8 @@ footer {
     height: 91%;
 }
 
-@media only screen and (max-width: 840px) {
-    html, body {
-        
-    }
-}
 
-@media only screen and (max-width: 840px) {
+@media only screen and (max-width: 900px) {
   .navbar {
     width:100%;
   }
@@ -86,5 +91,6 @@ footer {
   }
     #navHome {
         visibility: hidden;
+        
     }
 }
