@@ -5,7 +5,13 @@ html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    background-image: url(kings-row.jpg);
  }
+
+body {
+    height: 100%;
+    width:auto;
+}
 
 ul {
     list-style-type: none;
@@ -26,23 +32,18 @@ li a {
 }
 
 li a:hover {
-    background-color: #5f5f60;
+    background-color: #e69b42;
     color:white;
     text-decoration: none;
 }
 
 
 li a.active {
-    background-color: #5f5f60;
+    background-color: #e69b42;
     color: white;
     width: 100%;
 }
 
-#navbar {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    position: static;
-}
 
 #navHome {
     color:white;
@@ -51,50 +52,39 @@ li a.active {
     text-align: center;
 }
 
-#homebanner {
-    position: static;
-    height:auto;
-    max-width: 100%;
-}
-
-
-#homeborder {
-    border: 2px black;
-    border-style: solid;
-    text-align: justify;
-    max-height: 90%;
-    width:auto
-    margin-top: -7px;
-    margin-left: 100px;
-    margin-right: 100px;
-    
-        
-}
 
 footer {
     text-align: center;
     word-wrap: normal;
-}
-
-.homesections {
-    height: 400px;
-    width: 750px;
-    display: inline-flex;
-    position: relative;
-    margin-left: 70px;
-}
-
-.homesections2 {
-    height: 400px;
-    width: 750px;
-    display: inline-flex;
-    position: relative;
-    margin-right: 70px;
-}
-
-.homeimages {
-    height: 100%;
-    width: auto;
+    z-index: 10;
+    color:white;
+    height: 3%;
+    margin-left: 100px;
+    margin-right: 100px;
     
-    
+}
+
+#filler {
+    height: 91%;
+}
+
+@media only screen and (max-width: 840px) {
+    html, body {
+        
+    }
+}
+
+@media only screen and (max-width: 840px) {
+  .navbar {
+    width:100%;
+  }
+  .nav-item {
+    width:100%;
+    margin:0;
+      padding: 0;
+    float:none;
+  }
+    #navHome {
+        visibility: hidden;
+    }
 }
