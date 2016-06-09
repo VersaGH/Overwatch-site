@@ -5,6 +5,7 @@ html, body {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    width:auto;
     background-image: url(kings-row.jpg);
  }
 
@@ -62,6 +63,11 @@ li a.active {
     padding: 0px;
 }
 
+#navresize {
+    display:none;
+}
+
+
 
 footer {
     text-align: center;
@@ -76,21 +82,55 @@ footer {
 
 #filler {
     height: 91%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+
+.twitter-timeline {
+    float:right;
+        
+}
+
+#construction {
+    z-index: 10000;
+    color:white;
+    float:left;
+    margin-top: 20%;
+}
+
+
 
 
 @media only screen and (max-width: 900px) {
   .navbar {
     width:100%;
+    margin: 0px;
   }
+    ul {
+        margin:0px;
+    }
   .nav-item {
     width:100%;
-    margin:0;
-      padding: 0;
+    margin:0px;
+    padding: 0;
     float:none;
   }
     #navHome {
-        visibility: hidden;
+        display:none;
         
     }
+    .twitter-timeline {
+        margin: 15%;
+        width:100%;
+        position: relative;
+    }
+    
+    #navresize {
+        display: inline-block;
+    }
+    
+    footer {
+        margin:0px;
+    }
 }
+
