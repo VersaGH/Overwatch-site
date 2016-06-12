@@ -1,0 +1,74 @@
+div {margin:0px; padding:0px;}
+
+#container {
+    width:100%;
+    height:100%;
+    position:fixed;
+}
+#buttons {height:100%;}
+
+li {
+    width:100%;
+    height:16.6666666666666666666666667%;
+    list-style-type: none;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+}
+
+#home {
+    background:#333;
+    color:white;
+}
+
+#offense {
+    background:#333;
+    color:white;
+}
+
+#defense {
+    background:#333;
+    color:white;
+}
+
+#tank {
+    background:#333;
+    color:white;
+}
+
+#support {
+    background:#333;
+    color:white;
+}
+
+#maps {
+    background:#333;
+    color:white;
+}
+
+
+}
+
+a:link {
+    text-decoration: none;
+    color:white;
+    width:100%;
+    height:auto;
+    
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+    background:#e69b42;
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
