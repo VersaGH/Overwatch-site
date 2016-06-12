@@ -1,0 +1,39 @@
+html, body {
+    background-image: url(kings-row.jpg);
+    
+}
+p {
+    color:white;
+    text-align: center;
+    font-size: 24px;
+}
+div {
+    color:white;
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 20%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 60%;
+    background-color: #333;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 20%;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #e69b42;
+}
+
