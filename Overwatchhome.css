@@ -32,6 +32,14 @@ li {
     text-decoration: none;
 }
 
+.nav-item2 {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 16px 25px;
+    text-decoration: none;
+}
+
 .nav-item:hover {
     background-color: #e69b42;
     color:white;
@@ -114,6 +122,7 @@ footer {
     margin:0px;
     padding: 0;
     float:none;
+    display:none;
   }
     #navHome {
         display:none;
@@ -127,6 +136,10 @@ footer {
     
     #navresize {
         display: inline-block;
+        width:100%;
+        margin:0px;
+        padding:0;
+        float:none;
     }
     
     footer {
