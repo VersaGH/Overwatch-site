@@ -23,7 +23,9 @@ ul {
 }
 li {
     float: right;
-}
+    
+    }
+
 .nav-item {
     display: inline-block;
     color: white;
@@ -39,9 +41,11 @@ li {
     text-decoration: none;
 }
 
+
 li a {
     color:white;
     text-decoration: none;
+        
 }
 li a:hover {
     text-decoration: none;
@@ -64,7 +68,7 @@ li a.active {
     padding: 0px;
 }
 
-#navresize {
+.navresize {
     display:none;
 }
 
@@ -127,7 +131,7 @@ footer {
         position: relative;
     }
     
-    #navresize {
+    .navresize {
         display: inline-block;
         width:100%;
         margin:0px;

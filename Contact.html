@@ -8,9 +8,9 @@
     <link rel="stylesheet" type="text/css" href="Contact.css">
     <title id= title>Overwatchguide.xyz</title>
     <link rel="shortcut icon" href="favicon.ico"/>
+    <script type = "text/javascript" src = "Contact.js"></script>
 </head>
 <body>
-    
     <br>
     <br>
     <br>
@@ -25,17 +25,17 @@
     <br>
     <br>
     <div>
-        <form action="MAILTO:Contact@overwatchguide.xyz" method="post" enctype="text/plain">
+        <form name = "contactform" action="email.php" method="post" enctype="text/plain" onsubmit="return(validate());">
             Name:<br>
             <input type="text" onfocus="if(this.value == 'Enter your name') { this.value = ''; }" value="Enter your name" name="name">
             <br>
             E-mail:
             <br>
-            <input type="text" name="mail" value="Enter your email">
+            <input type="text" onfocus="if(this.value == 'Enter your email') { this.value = ''; }" name="mail" value="Enter your email">
             <br>
             Comment:
             <br>
-            <input type="text" name="comment" size="50">
+            <input type="text" name="comment">
             <br>
             <br>
             <input type="submit" value="Send">
